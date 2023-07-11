@@ -2,7 +2,7 @@ name: metadata ingestion
 on:
   push:
     branches:
-      - add-s3-sink-connector-ci
+      - without-s3-sink-test-changes
     paths:
       - ".github/workflows/metadata-ingestion.yml"
       - "metadata-ingestion/**"
